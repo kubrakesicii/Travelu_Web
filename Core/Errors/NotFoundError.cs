@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.UnitOfWork
+namespace Core.Errors
 {
-    public interface IUnitOfWork : IDisposable
+    public class NotFoundError : Exception
     {
-        int SaveChanges();
+        public NotFoundError() : base("NOTFOUND")
+        {
+        }
     }
 }

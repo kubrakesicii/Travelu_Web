@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Generic\" />
+    <Folder Include="Concrete\" />
   </ItemGroup>
 
 </Project>

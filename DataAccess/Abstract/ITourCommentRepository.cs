@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    public interface IUserRepository : IGenericRepository<User>
+    public interface ITourCommentRepository : IGenericRepository<TourComment>
     {
     }
 }
